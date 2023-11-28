@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Route, Routes} from 'react-router-dom'; // Import 'Switch' from 'react-router'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import CommonQuiz from './CommonQuiz';
+import Home from './Home';
+import SubtopicList from './SubtopicList';
 
+// Const App = () => <Animalquiz />;
+const App = () => (
+	<Routes>
+		<Route exact path='/:subjectId' element={<SubtopicList />} />
+
+		<Route exact path='/:subjectId/:subtopicId' element={<CommonQuiz />} />
+		<Route exac path='/' element={<Home />} />
+	</Routes>
+);
 export default App;
