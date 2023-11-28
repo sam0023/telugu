@@ -3,12 +3,12 @@ import {Route, Routes} from 'react-router-dom'; // Import 'Switch' from 'react-r
 
 import CommonQuiz from './CommonQuiz';
 import Home from './Home';
-import SubtopicList from './SubtopicList';
+import ChapterTopicList from './ChapterTopicList';
 
 // Const App = () => <Animalquiz />;
 const App = () => (
 	<Routes>
-		<Route exact path='/:subjectId' element={<SubtopicList />} />
+		<Route exact path='/:subjectId' element={<ChapterTopicList/>} />
 
 		<Route exact path='/:subjectId/:subtopicId' element={<CommonQuiz />} />
 		<Route exac path='/' element={<Home />} />
