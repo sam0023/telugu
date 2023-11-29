@@ -69,14 +69,14 @@ const CommonQuiz = () => {
 	return (
 		<div className='quizcontainer'>
 			<h2>Quiz-Total question:{questions.length}</h2>
-			<button onClick={toggleDarkMode}>
+			<button className='button-64' onClick={toggleDarkMode}>
 				{isDarkMode ? 'Light Mode' : 'Dark Mode'}
 			</button>
 			<p>Question {questionNo}</p>
 			<p>{questions[currentQuestionIndex].questionText}</p>
 
-			<button onClick={showAnswerForCurrentQuestion}>Show Answer</button>
-			<button onClick={moveToNextQuestion}>Next Question</button>
+			<button className='button-1' onClick={showAnswerForCurrentQuestion}>Show Answer</button>
+			<button className='button-1' onClick={moveToNextQuestion}>Next Question</button>
 
 			{showAnswer && (
 				<div>
