@@ -61,7 +61,7 @@ const CommonQuiz = () => {
 		getRandomQuestion();
 	}
 
-	// Ensure that there are questions available
+	// Ensure that there are questions w available
 	if (questions.length === 0) {
 		return <div>No questions available.</div>;
 	}
