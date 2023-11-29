@@ -3,3 +3,16 @@
     font-family: sans-serif;
     padding: 15px;
 }
+
+
+body {
+    background-color: #f0f0f0;
+    /* Light mode background color */
+}
+
+.dark-mode {
+    background-color: #333;
+    /* Dark mode background color */
+    color: #fff;
+    /* Dark mode text color */
+}

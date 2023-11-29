@@ -3,20 +3,21 @@ import {Link} from 'react-router-dom';
 
 import {useParams} from 'react-router-dom';
 
-const env = [
-	{id: 1, topicId: 'np', topicName: 'National Parks'},
+// Const env = [
+// 	{id: 1, topicId: 'np', topicName: 'National Parks'},
 
-];
+// ];
 
 const vengi = [
 	{id: 1, topicId: 'intro', topicName: 'Intro'},
+	{id: 2, topicId: 'terminology', topicName: 'Terminology'},
 ];
 
 const subjects = [
-	{
-		id: 'satavahana',
-		data: env,
-	},
+	// {
+	// 	id: 'satavahana',
+	// 	data: env,
+	// },
 	{
 		id: 'vengi',
 		data: vengi,
