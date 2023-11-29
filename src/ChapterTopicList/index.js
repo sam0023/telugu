@@ -11,6 +11,7 @@ import {useParams} from 'react-router-dom';
 const vengi = [
 	{id: 1, topicId: 'intro', topicName: 'Intro'},
 	{id: 2, topicId: 'terminology', topicName: 'Terminology'},
+	{id: 3, topicId: 'inscriptions', topicName: 'Inscriptions'},
 ];
 
 const subjects = [

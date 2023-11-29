@@ -1,5 +1,6 @@
 import Intro from '../Intro';
 import Terminology from '../Terminology';
+import Inscriptions from '../Inscriptions';
 
 const VengiTopicData = [
 	{
@@ -8,6 +9,9 @@ const VengiTopicData = [
 	}, {
 		topicId: 'terminology',
 		questions: Terminology,
+	}, {
+		topicId: 'inscriptions',
+		questions: Inscriptions,
 	},
 ];
 
