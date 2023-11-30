@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/telugu/static/css/main.49565b15.css",
-    "main.js": "/telugu/static/js/main.294cb0bc.js",
+    "main.css": "/telugu/static/css/main.5638a05a.css",
+    "main.js": "/telugu/static/js/main.a1ab84ba.js",
     "static/js/787.3910c1f2.chunk.js": "/telugu/static/js/787.3910c1f2.chunk.js",
     "static/media/chess.mp3": "/telugu/static/media/chess.04858efe69237ae7a017.mp3",
     "index.html": "/telugu/index.html",
-    "main.49565b15.css.map": "/telugu/static/css/main.49565b15.css.map",
-    "main.294cb0bc.js.map": "/telugu/static/js/main.294cb0bc.js.map",
+    "main.5638a05a.css.map": "/telugu/static/css/main.5638a05a.css.map",
+    "main.a1ab84ba.js.map": "/telugu/static/js/main.a1ab84ba.js.map",
     "787.3910c1f2.chunk.js.map": "/telugu/static/js/787.3910c1f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49565b15.css",
-    "static/js/main.294cb0bc.js"
+    "static/css/main.5638a05a.css",
+    "static/js/main.a1ab84ba.js"
   ]
 }
