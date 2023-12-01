@@ -147,10 +147,10 @@ const Inscriptions = [
 		questionText: 'ధర్మవరం',
 		ans: ['గుణగ విజయాదిత్య'],
 	},
-	// {
-	// 	questionText: '',
-	// 	ans: [''],
-	// },
+	{
+		questionText: '1st సీస పద్యం',
+		ans: ['కందుకూరు, ధర్మవరం Ins'],
+	},
 
 ];
 
