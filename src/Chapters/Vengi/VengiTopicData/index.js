@@ -2,6 +2,7 @@ import Intro from '../Intro';
 import Terminology from '../Terminology';
 import Inscriptions from '../Inscriptions';
 import Titles from '../Titles';
+import Literature from '../Literature';
 
 const VengiTopicData = [
 	{
@@ -19,6 +20,10 @@ const VengiTopicData = [
 	{
 		topicId: 'titles',
 		questions: Titles,
+	},
+	{
+		topicId: 'literature',
+		questions: Literature,
 	},
 ];
 

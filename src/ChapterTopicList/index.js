@@ -13,6 +13,7 @@ const vengi = [
 	{id: 2, topicId: 'titles', topicName: 'Titles'},
 	{id: 3, topicId: 'inscriptions', topicName: 'Inscriptions'},
 	{id: 4, topicId: 'terminology', topicName: 'Terminology'},
+	{id: 5, topicId: 'literature', topicName: 'Literature'},
 ];
 
 const subjects = [
