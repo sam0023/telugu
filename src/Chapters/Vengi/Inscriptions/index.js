@@ -131,6 +131,22 @@ const Inscriptions = [
 		questionText: 'who wrote ఆహాదనాకర Ins & it talks about?',
 		ans: ['Vishnu Vardhana 5', 'Tells about Foreign Trade'],
 	},
+	{
+		questionText: 'చేజర్ల Ins',
+		ans: ['Kubjja Vishnuvardhana'],
+	},
+	{
+		questionText: '1st More than 50% telugu Ins',
+		ans: ['చేజర్ల Ins-Kubjja Vishnuvardhana'],
+	},
+	{
+		questionText: 'కందుకూరు Ins',
+		ans: ['గుణగ విజయాదిత్య'],
+	},
+	{
+		questionText: 'ధర్మవరం',
+		ans: ['గుణగ విజయాదిత్య'],
+	},
 	// {
 	// 	questionText: '',
 	// 	ans: [''],
