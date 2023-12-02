@@ -5,6 +5,7 @@ function Home() {
 	const subjects = [
 		{id: 1, chapter: 'Satavahana', code: 'satavahana'},
 		{id: 2, chapter: 'Vengi', code: 'vengi'},
+		{id: 2, chapter: 'Vishnukundins', code: 'vishnukundins'},
 		// Add more subjects here
 	];
 

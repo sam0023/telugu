@@ -2,12 +2,13 @@ import React, {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
 import chess from '../chess.mp3';
 import VengiTopicData from '../Chapters/Vengi/VengiTopicData';
+import VishnukundinsTopicData from '../Chapters/Vishnukundins/VishnukundinsTopicsData';
 import './index.css';
 
 const subjects = {
 	vengi: VengiTopicData,
+	vishnukundins: VishnukundinsTopicData,
 };
-
 const questionsList = (subjectId, subtopicId) => {
 	// Find the matching subtopic based on subjectId and subtopicId:
 
@@ -67,7 +68,9 @@ const CommonQuiz = () => {
 	}
 
 	return (
+
 		<div className='quizcontainer'>
+
 			<h2>Quiz-Total question:{questions.length}</h2>
 			<button className='button-64' onClick={toggleDarkMode}>
 				{isDarkMode ? 'Light Mode' : 'Dark Mode'}

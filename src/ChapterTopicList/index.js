@@ -8,6 +8,11 @@ import {useParams} from 'react-router-dom';
 
 // ];
 
+const Vishnukundins = [
+	{id: 1, topicId: 'inscriptions', topicName: 'Inscriptions'},
+	{id: 2, topicId: 'literature', topicName: 'Literarture'},
+];
+
 const vengi = [
 	{id: 1, topicId: 'intro', topicName: 'Intro'},
 	{id: 2, topicId: 'titles', topicName: 'Titles'},
@@ -24,6 +29,9 @@ const subjects = [
 	{
 		id: 'vengi',
 		data: vengi,
+	}, {
+		id: 'vishnukundins',
+		data: Vishnukundins,
 	},
 
 ];
