@@ -11,6 +11,8 @@ import {useParams} from 'react-router-dom';
 const Vishnukundins = [
 	{id: 1, topicId: 'inscriptions', topicName: 'Inscriptions'},
 	{id: 2, topicId: 'literature', topicName: 'Literarture'},
+	{id: 3, topicId: 'society', topicName: 'Society'},
+	{id: 4, topicId: 'terminology', topicName: 'Terminology'},
 ];
 
 const vengi = [

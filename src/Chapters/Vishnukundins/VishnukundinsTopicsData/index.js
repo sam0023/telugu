@@ -1,5 +1,7 @@
 import Literature from '../Literature';
 import Inscriptions from '../Inscriptions';
+import Society from '../Society';
+import Terminology from '../Terminology';
 
 const VishnukundinsTopicData = [
 	{
@@ -9,6 +11,14 @@ const VishnukundinsTopicData = [
 	{
 		topicId: 'inscriptions',
 		questions: Inscriptions,
+	},
+	{
+		topicId: 'society',
+		questions: Society,
+	},
+	{
+		topicId: 'terminology',
+		questions: Terminology,
 	},
 ];
 

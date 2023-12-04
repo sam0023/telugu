@@ -17,7 +17,7 @@ const Inscriptions = [
 	},
 	{
 		questionText: 'వేల్పురు శిల Ins',
-		ans: ['Madhava Verma-II', 'సత్తెనపల్లి'],
+		ans: ['Madhava Verma-II', 'సత్తెనపల్లి, Guntur'],
 	},
 	{
 		questionText: '2వ మాధవ వర్మ గణపతి ఆలయం నిర్మించినట్లు తెలుపు శాసనం',
@@ -32,7 +32,7 @@ const Inscriptions = [
 		ans: ['Madhava Verma-4', 'రామచంద్రపురం, E.Godavari'],
 	},
 	{
-		questionText: 'తుమ్మిడి తామ్ర Ins',
+		questionText: 'Thumdi తామ్ర Ins',
 		ans: ['Vikramendra Verma-II', 'Tuni, E.Godavari'],
 	},
 	{
@@ -46,6 +46,34 @@ const Inscriptions = [
 	{
 		questionText: 'Vishnu Kundinas శాసనాలపై _________ చిహ్నాలు కలవు',
 		ans: ['Laxmi, శంఖం'],
+	},
+	{
+		questionText: 'Which Ins mentioned about ఇరుoధేరా village donation to Mahabattarika Viharam',
+		ans: ['Tummalaguudu Ins'],
+	},
+	{
+		questionText: 'ఖానాపూర్ Ins',
+		ans: ['Madhavarma-II'],
+	},
+	{
+		questionText: 'Which Ins mentions Vikramendra verma-I as మహాకవి',
+		ans: ['ఇంద్రపాల నగర Ins'],
+	},
+	{
+		questionText: 'Godavari Ins',
+		ans: ['పృద్వీములుడు'],
+	},
+	{
+		questionText: '2nd తుమ్మలగూడు Ins',
+		ans: ['Vikramendraverma-II'],
+	},
+	{
+		questionText: 'ఇంద్రపాల నగర Ins',
+		ans: ['Vikramendraverma-II'],
+	},
+	{
+		questionText: 'Which Gods symbols are seen on their Ins',
+		ans: ['భూత గ్రహక స్వామి,  దంత ముఖస్వామి'],
 	},
 
 ];
