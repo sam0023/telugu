@@ -23,17 +23,25 @@ const vengi = [
 	{id: 5, topicId: 'literature', topicName: 'Literature'},
 ];
 
+const Kakatiyas = [
+	{id: 1, topicId: 'terminology', topicName: 'Terminology'},
+	{id: 2, topicId: 'literarysources', topicName: 'Literary Sources'},
+	{id: 3, topicId: 'inscriptions', topicName: 'Inscriptions'},
+];
+
 const subjects = [
-	// {
-	// 	id: 'satavahana',
-	// 	data: env,
-	// },
+
 	{
 		id: 'vengi',
 		data: vengi,
-	}, {
+	},
+	{
 		id: 'vishnukundins',
 		data: Vishnukundins,
+	},
+	{
+		id: 'kakatiyas',
+		data: Kakatiyas,
 	},
 
 ];

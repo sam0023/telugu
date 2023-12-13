@@ -3,11 +3,13 @@ import {useParams} from 'react-router-dom';
 import chess from '../chess.mp3';
 import VengiTopicData from '../Chapters/Vengi/VengiTopicData';
 import VishnukundinsTopicData from '../Chapters/Vishnukundins/VishnukundinsTopicsData';
+import KakatiyaTopicsData from '../Chapters/Kakatiyas/KakatiyaTopicsData';
 import './index.css';
 
 const subjects = {
 	vengi: VengiTopicData,
 	vishnukundins: VishnukundinsTopicData,
+	kakatiyas: KakatiyaTopicsData,
 };
 const questionsList = (subjectId, subtopicId) => {
 	// Find the matching subtopic based on subjectId and subtopicId:
