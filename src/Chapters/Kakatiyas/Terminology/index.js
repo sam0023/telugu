@@ -280,12 +280,12 @@ const Terminology = [
 	},
 	{
 		questionText: 'మదదారులు',
-		ans: [''],
+		ans: ['Sect from Vishnavism'],
 	},
-	{
-		questionText: '',
-		ans: [''],
-	},
+	// {
+	// 	questionText: '',
+	// 	ans: [''],
+	// },
 ];
 
 export default Terminology;
