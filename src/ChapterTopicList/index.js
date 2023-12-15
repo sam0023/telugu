@@ -27,6 +27,7 @@ const Kakatiyas = [
 	{id: 1, topicId: 'terminology', topicName: 'Terminology'},
 	{id: 2, topicId: 'literarysources', topicName: 'Literary Sources'},
 	{id: 3, topicId: 'inscriptions', topicName: 'Inscriptions'},
+	{id: 4, topicId: 'l&t', topicName: 'Lakes and Temples'},
 ];
 
 const subjects = [

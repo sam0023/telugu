@@ -2,6 +2,7 @@
 import Terminology from '../Terminology';
 import LiterarySources from '../LiterarySources';
 import Inscriptions from '../Inscriptions';
+import LakesAndTemples from '../LakesAndTemples';
 
 const KakatiyaTopicsData = [
 	{
@@ -15,6 +16,10 @@ const KakatiyaTopicsData = [
 	{
 		topicId: 'inscriptions',
 		questions: Inscriptions,
+	},
+	{
+		topicId: 'l&t',
+		questions: LakesAndTemples,
 	},
 ];
 
