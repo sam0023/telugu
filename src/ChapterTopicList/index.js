@@ -30,6 +30,11 @@ const Kakatiyas = [
 	{id: 4, topicId: 'l&t', topicName: 'Lakes and Temples'},
 ];
 
+const vijayanagara = [
+	{id: 1, topicId: 'general', topicName: 'General'},
+
+];
+
 const subjects = [
 
 	{
@@ -43,6 +48,10 @@ const subjects = [
 	{
 		id: 'kakatiyas',
 		data: Kakatiyas,
+	},
+	{
+		id: 'vijayanagara',
+		data: vijayanagara,
 	},
 
 ];

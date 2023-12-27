@@ -4,12 +4,14 @@ import chess from '../chess.mp3';
 import VengiTopicData from '../Chapters/Vengi/VengiTopicData';
 import VishnukundinsTopicData from '../Chapters/Vishnukundins/VishnukundinsTopicsData';
 import KakatiyaTopicsData from '../Chapters/Kakatiyas/KakatiyaTopicsData';
+import VijayanagaraTopicsData from '../Chapters/Vijayanagara/VijayanagaraTopicsData';
 import './index.css';
 
 const subjects = {
 	vengi: VengiTopicData,
 	vishnukundins: VishnukundinsTopicData,
 	kakatiyas: KakatiyaTopicsData,
+	vijayanagara: VijayanagaraTopicsData,
 };
 const questionsList = (subjectId, subtopicId) => {
 	// Find the matching subtopic based on subjectId and subtopicId:
@@ -56,7 +58,11 @@ const CommonQuiz = () => {
 	// Function to show the answer for the current question
 	function showAnswerForCurrentQuestion() {
 		audioRef.current.play();
-		setShowAnswer(true);
+		if (showAnswer) {
+			moveToNextQuestion();
+		} else {
+			setShowAnswer(true);
+		}
 	}
 
 	// Function to move to the next random question
