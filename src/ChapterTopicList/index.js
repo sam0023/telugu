@@ -32,8 +32,10 @@ const Kakatiyas = [
 
 const vijayanagara = [
 	{id: 1, topicId: 'general', topicName: 'General'},
-	{id: 2, topicId: 'terminology', topicName: 'Terminology'},
-
+	{id: 2, topicId: 'ga', topicName: 'GeneralAdministartion'},
+	{id: 3, topicId: 'terminology', topicName: 'Terminology'},
+	{id: 4, topicId: 'irrigation', topicName: 'Irrigation'},
+	{id: 5, topicId: 'religion', topicName: 'Religion'},
 ];
 
 const subjects = [
