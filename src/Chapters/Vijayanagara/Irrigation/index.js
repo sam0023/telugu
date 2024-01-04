@@ -1,6 +1,6 @@
 const Irrigation = [
 	{
-		questionText: 'రువేరు తటాకం',
+		questionText: 'శిరువేరు తటాకం',
 		ans: ['మొదటి బుక్కరాయలు', 'పెనుకొండ సమీపంలో)'],
 	},
 	{
