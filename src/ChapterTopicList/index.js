@@ -36,6 +36,7 @@ const vijayanagara = [
 	{id: 3, topicId: 'terminology', topicName: 'Terminology'},
 	{id: 4, topicId: 'irrigation', topicName: 'Irrigation'},
 	{id: 5, topicId: 'religion', topicName: 'Religion'},
+	{id: 6, topicId: 'art', topicName: 'Art'},
 ];
 
 const subjects = [
