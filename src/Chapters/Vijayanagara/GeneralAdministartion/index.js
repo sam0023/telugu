@@ -139,18 +139,18 @@ const GeneralAdministartion = [
 		questionText: 'Entertainment',
 		ans: ['Hunting, Music & Dange'],
 	},
-	{
-		questionText: '',
-		ans: [''],
-	},
-	{
-		questionText: '',
-		ans: [''],
-	},
-	{
-		questionText: '',
-		ans: [''],
-	},
+	// {
+	// 	questionText: '',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: '',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: '',
+	// 	ans: [''],
+	// },
 
 ];
 
