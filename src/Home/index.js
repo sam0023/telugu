@@ -8,6 +8,7 @@ function Home() {
 		{id: 3, chapter: 'Vishnukundins', code: 'vishnukundins'},
 		{id: 4, chapter: 'Kakatiyas', code: 'kakatiyas'},
 		{id: 5, chapter: 'Vijayanagara', code: 'vijayanagara'},
+		{id: 6, chapter: 'LiteratureInMedivalData', code: 'LiteratureInMedivalData'},
 		// Add more subjects here
 	];
 

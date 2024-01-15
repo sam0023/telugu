@@ -20,142 +20,142 @@ const General = [
 		questionText: 'Harihara Raya & Bukka Raya 1st shelterd in which fort ',
 		ans: ['Gutti Fort, Ananthapur'],
 	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
-	{
-		questionText: ' ',
-		ans: [''],
-	},
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
+	// {
+	// 	questionText: ' ',
+	// 	ans: [''],
+	// },
 ];
 
 export default General;

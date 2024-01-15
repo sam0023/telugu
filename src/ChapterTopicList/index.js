@@ -37,6 +37,12 @@ const vijayanagara = [
 	{id: 4, topicId: 'irrigation', topicName: 'Irrigation'},
 	{id: 5, topicId: 'religion', topicName: 'Religion'},
 	{id: 6, topicId: 'art', topicName: 'Art'},
+	{id: 7, topicId: 'literature', topicName: 'Literature'},
+
+];
+
+const LiteratureInMedivalData = [
+	{id: 1, topicId: 'literature', topicName: 'Literature'},
 ];
 
 const subjects = [
@@ -56,6 +62,10 @@ const subjects = [
 	{
 		id: 'vijayanagara',
 		data: vijayanagara,
+	},
+	{
+		id: 'LiteratureInMedivalData',
+		data: LiteratureInMedivalData,
 	},
 
 ];

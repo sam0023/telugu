@@ -4,6 +4,7 @@ import Irrigation from '../Irrigation';
 import GeneralAdministartion from '../GeneralAdministartion';
 import Religion from '../Religion';
 import Art from '../Art';
+import Literature from '../Literature';
 
 const VijayanagaraTopicsData = [
 	{
@@ -29,6 +30,10 @@ const VijayanagaraTopicsData = [
 	{
 		topicId: 'art',
 		questions: Art,
+	},
+	{
+		topicId: 'literature',
+		questions: Literature,
 	},
 ];
 export default VijayanagaraTopicsData;
