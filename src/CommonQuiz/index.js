@@ -6,6 +6,7 @@ import VishnukundinsTopicData from '../Chapters/Vishnukundins/VishnukundinsTopic
 import KakatiyaTopicsData from '../Chapters/Kakatiyas/KakatiyaTopicsData';
 import VijayanagaraTopicsData from '../Chapters/Vijayanagara/VijayanagaraTopicsData';
 import LiteratureInMedivalData from '../Chapters/LiteratureInMedival/LiteratureInMedivalData';
+import SathavahanaData from '../Chapters/Sathavahana/SathavahanaData';
 import './index.css';
 
 const subjects = {
@@ -14,6 +15,7 @@ const subjects = {
 	kakatiyas: KakatiyaTopicsData,
 	vijayanagara: VijayanagaraTopicsData,
 	LiteratureInMedivalData,
+	sathavahana: SathavahanaData,
 };
 const questionsList = (subjectId, subtopicId) => {
 	// Find the matching subtopic based on subjectId and subtopicId:

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 function Home() {
 	const subjects = [
-		// {id: 1, chapter: 'Satavahana', code: 'satavahana'},
+		{id: 1, chapter: 'Sathavahana', code: 'sathavahana'},
 		{id: 2, chapter: 'Vengi', code: 'vengi'},
 		{id: 3, chapter: 'Vishnukundins', code: 'vishnukundins'},
 		{id: 4, chapter: 'Kakatiyas', code: 'kakatiyas'},

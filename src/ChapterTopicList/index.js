@@ -8,6 +8,10 @@ import {useParams} from 'react-router-dom';
 
 // ];
 
+const Sathavahana = [
+	{id: 1, topicId: 'terminology', topicName: 'Terminology'},
+];
+
 const Vishnukundins = [
 	{id: 1, topicId: 'inscriptions', topicName: 'Inscriptions'},
 	{id: 2, topicId: 'literature', topicName: 'Literarture'},
@@ -46,7 +50,10 @@ const LiteratureInMedivalData = [
 ];
 
 const subjects = [
-
+	{
+		id: 'sathavahana',
+		data: Sathavahana,
+	},
 	{
 		id: 'vengi',
 		data: vengi,
