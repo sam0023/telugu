@@ -1,0 +1,20 @@
+.ans-b {
+    font-size: 12px;
+    margin-left: 22px;
+    display: block;
+}
+
+.question {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.ans {
+    margin-left: 28px;
+    border: 2px solid brown;
+    margin-bottom: 7px;
+    padding: 7px;
+    min-width: 300px;
+    display: inline-block;
+}
