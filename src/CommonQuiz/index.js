@@ -8,6 +8,7 @@ import VijayanagaraTopicsData from '../Chapters/Vijayanagara/VijayanagaraTopicsD
 import LiteratureInMedivalData from '../Chapters/LiteratureInMedival/LiteratureInMedivalData';
 import SathavahanaData from '../Chapters/Sathavahana/SathavahanaData';
 import RevisionQuestionBox from '../RevisionQuestionBox';
+import NationalMomentsTopics from '../Chapters/NationalMovements/NationalMovementsTopics';
 import './index.css';
 
 const subjects = {
@@ -17,12 +18,15 @@ const subjects = {
 	vijayanagara: VijayanagaraTopicsData,
 	LiteratureInMedivalData,
 	sathavahana: SathavahanaData,
+	nationalMovement: NationalMomentsTopics,
 };
 const questionsList = (subjectId, subtopicId) => {
 	// Find the matching subtopic based on subjectId and subtopicId:
 
 	const subject = subjects[subjectId];
-
+	// Console.log(subjectId);
+	// console.log(subject);
+	// console.log(subtopicId);
 	const topic = subject.find(t => t.topicId === subtopicId);
 	return topic ? topic.questions : [];
 };
@@ -38,20 +42,6 @@ const CommonQuiz = () => {
 	const [isRandomPage, setRandomPage] = useState(true);
 	// Const [showAnswerForRevisonButton, setShowAnswerForRevisonButton] = useState(false);
 	const audioRef = React.createRef();
-
-	// UseEffect to apply theme on initial render
-	// useEffect(() => {
-	// 	applyTheme();
-	// }, [isDarkMode]);
-
-	// const applyTheme = () => {
-	// 	const {body} = document;
-	// 	body.classList.toggle('dark-mode', isDarkMode);
-	// };
-
-	// Const toggleDarkMode = () => {
-	// 	setDarkMode(!isDarkMode);
-	// };
 
 	// Function to get a random question
 	function getRandomQuestion() {
@@ -82,48 +72,14 @@ const CommonQuiz = () => {
 		return <div>No questions available.</div>;
 	}
 
-	// Function toggleShowAnswerForRevisionQuestion() {
-	// 	audioRef.current.play();
-	// 	if (showAnswerForCurrentQuestion) {
-	// 		setShowAnswerForRevisonButton(false);
-	// 	} else {
-	// 		setShowAnswerForRevisonButton(true);
-	// 	}
-	// }
-
-	// const RevisionQuestionBox = (questionSet, index) => {
-	// 	    const {question, ansSet} = questionSet;
-	// 	const Box = (
-	// 		<div>
-	// 			<h2>{question}</h2>
-	// 			<div>
-	// 				{showAnswerForRevisonButton && (
-	// 					<div>
-	// 						<h3>Answer:</h3>
-	// 						{questions[index].ans.map((answer, index) => (
-	// 							<p key={index}>{answer}</p>
-	// 						))}
-	// 					</div>
-	// 				)}
-	// 			</div>
-	// 			<button className='revision-ans-button' onClick={toggleShowAnswerForRevisionQuestion}>Show Answer</button>
-	// 		</div>
-	// 	);
-	// };
 	const revisionQuestion = (questionSet, index) => {
-		// Console.log(questionSet);
-		// {
-		// 	questionText: 'When did Vijayanagra Kingdom formed',
-		// 	ans: ['18th April, 1336'],
-		// },
 		const {questionText, ans} = questionSet;
 		const qsetdata = {
 			question: questionText,
 			answers: ans,
 			index,
 		};
-		// Console.log('logging qsetdata');
-		// console.log(qsetdata);
+
 		return (
 			<RevisionQuestionBox {...qsetdata}/>
 		);

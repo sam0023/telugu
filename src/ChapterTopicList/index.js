@@ -49,6 +49,10 @@ const LiteratureInMedivalData = [
 	{id: 1, topicId: 'literature', topicName: 'Literature'},
 ];
 
+const NationalMovements = [
+	{id: 1, topicId: 'literature', topicName: 'Literature and songs'},
+];
+
 const subjects = [
 	{
 		id: 'sathavahana',
@@ -73,6 +77,10 @@ const subjects = [
 	{
 		id: 'LiteratureInMedivalData',
 		data: LiteratureInMedivalData,
+	},
+	{
+		id: 'nationalMovement',
+		data: NationalMovements,
 	},
 
 ];

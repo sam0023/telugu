@@ -9,7 +9,8 @@ function Home() {
 		{id: 4, chapter: 'Kakatiyas', code: 'kakatiyas'},
 		{id: 5, chapter: 'Vijayanagara', code: 'vijayanagara'},
 		{id: 6, chapter: 'LiteratureInMedivalData', code: 'LiteratureInMedivalData'},
-		// Add more subjects here
+		{id: 7, chapter: 'NationalMovement', code: 'nationalMovement'},
+		// Add more subjects here nationalMoment
 	];
 
 	return (
