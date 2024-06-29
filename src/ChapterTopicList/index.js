@@ -51,6 +51,8 @@ const LiteratureInMedivalData = [
 
 const NationalMovements = [
 	{id: 1, topicId: 'literature', topicName: 'Literature and songs'},
+	{id: 2, topicId: 'nationalmoment', topicName: 'National Momemnt'},
+	{id: 3, topicId: 'print', topicName: 'Print'},
 ];
 
 const subjects = [
